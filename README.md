@@ -1,5 +1,6 @@
 
- Prueb inicial
+ Prueba inicial
  
  objetivo general 
+ Objetivo especifico
  
