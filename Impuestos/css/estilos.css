@@ -1,0 +1,23 @@
+body {
+  background: orange;
+  font-family: cursive;
+  font-size: 1.3rem;
+  line-height: 1.4em;
+  margin: 0;
+}
+h1{
+  font-size: 2rem;
+  line-height: 1.3em;
+}
+ p{
+   margin-bottom: 1.6em;
+ }
+ .container{
+   width: 85%;
+   max-width: 850px;
+   margin: 0 auto;
+ }
+ .header{
+
+
+ }
