@@ -11,7 +11,11 @@ body {
 .contenedor {
     padding: 60px 0;
     width: 90%;
+<<<<<<< HEAD
     max-width: 1200px;
+=======
+    max-width: 1000px;
+>>>>>>> a2982061a2ebf8e96206b35125d089fd1ea1ac1d
     margin: auto;
     overflow: hidden;
 }
@@ -28,6 +32,17 @@ body {
 header {
   width: 100%;
     height: 300px;
+<<<<<<< HEAD
+=======
+
+  /*  background: #bc4e9c;
+    /* fallback for old browsers
+    background: -webkit-linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664)), url(C:\Users\User\Desktop\git\Pandemials\Impuestos\imagenes\titulodepagina.png);
+    /* Chrome 10-25, Safari 5.1-6
+    background: linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664)), url(C:\Users\User\Desktop\git\Pandemials\Impuestos\imagenes\titulodepagina.png); */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+>>>>>>> a2982061a2ebf8e96206b35125d089fd1ea1ac1d
 }
 
 nav{
@@ -40,14 +55,22 @@ nav > a{
     color:#fff ;
     font-weight: 700;
     text-decoration: none;
+<<<<<<< HEAD
     margin-left: 50px;
+=======
+    margin-right: 50px;
+>>>>>>> a2982061a2ebf8e96206b35125d089fd1ea1ac1d
 }
 
 nav > a:hover{
     text-decoration: underline;
 }
 
+<<<<<<< HEAD
 /*header .textos-header{
+=======
+header .textos-header{
+>>>>>>> a2982061a2ebf8e96206b35125d089fd1ea1ac1d
     display: flex;
     height: 430px;
     width: 100%;
@@ -65,8 +88,13 @@ nav > a:hover{
 .textos-header h2{
     font-size: 30px;
     font-weight: 300;
+<<<<<<< HEAD
     color: #022549;
 }*/
+=======
+    color:#fff;
+}
+>>>>>>> a2982061a2ebf8e96206b35125d089fd1ea1ac1d
 
 /* About us */
 body{
@@ -81,6 +109,7 @@ main .inicio{
     justify-content: space-evenly;
 }
 
+<<<<<<< HEAD
 .boton{
   width: 350px ; height: 100px;
   background-color: #FF2E00;
@@ -109,6 +138,12 @@ main .inicio{
     margin-top: 100px ;
     margin-left: 80px ;
   }
+=======
+.imagen-about-us{
+    width: 40%;
+}
+
+>>>>>>> a2982061a2ebf8e96206b35125d089fd1ea1ac1d
 .inicio .contenido-textos{
     width: 48%;
 }
@@ -118,6 +153,7 @@ main .inicio{
 }
 
 .contenido-textos h3 span{
+<<<<<<< HEAD
     margin-bottom: 0px;
     display: inline-block;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
@@ -131,6 +167,21 @@ main .inicio{
 }
 
 
+=======
+    margin-bottom: 250px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 85px;
+}
+
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+>>>>>>> a2982061a2ebf8e96206b35125d089fd1ea1ac1d
 hr {
    height: 1px;
     color: red;
@@ -261,8 +312,16 @@ border-color: red;
 /* footer */
 
 footer{
+<<<<<<< HEAD
     padding: 100px 0 0px 0;
     }
+=======
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+>>>>>>> a2982061a2ebf8e96206b35125d089fd1ea1ac1d
 
 .contenedor-footer{
     display: flex;
