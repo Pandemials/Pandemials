@@ -1,31 +1,123 @@
-{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/*header*/
+@font-face{
+    font-family:ParaTitulo;
+    src: url(../Fuentes/Fuente1.ttf.ttf )
+}
+
+body{
+    background: white;
+
+}
+
+header{
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+}
+
+
+header .tituloprincipal {
+    background-color: #17314f;
+    height: 80px;
+    padding: 15px;
+    
+}
+header .tituloprincipal h1 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-family: ParaTitulo;
+    font-size: 80px;
+    line-height: 50px;
+    
+
+}
+header .tituloprincipal img{
+    
+    float: right;
+    width: 58px;
+}
+
+.listmenu{
+    padding:5px 0 5px 0;
+    text-align: left;
+    line-height: 32px;
+    background-color: #17314f;
+
+}
+ul.listmenu {
+    
+    /* margin-top: 9px;*/
+}
+
+
+.listmenu li {
+    display: inline;
+    padding: 0 20px 0 20px;
+    font-size: 16px;
+
+}
+.listmenu li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+
+}
+.listmenu li img{   
+    float: right; 
+    width: 100px;
+    height: auto;
+   /* margin: right;*/
+    padding: 5px;
+}
+.listmenu li a:hover{
+    background: #f4e315;
+    color: #17314f;
+
+}
+hr{
+    margin-top: 0%;
+    margin-bottom: 0;
+}
+
+
+
+
+/*------------------------------------------------*/
 body {
     font-family: 'open sans';
 }
 
 .contenedor {
-    padding: 60px 0;
+    padding: 80px 0;
     width: 90%;
     max-width: 1200px;
     margin: auto;
     overflow: hidden;
 }
 
-.titulo {
+/*.titulo {
     color: #642a73;
     font-size: 30px;
     text-align: center;
     margin-bottom: 60px;
 }
-
+*/
 /* Header */
 
-header {
+/*header {
   width: 100%;
     height: 300px;
 }
@@ -47,7 +139,7 @@ nav > a{
 nav > a:hover{
     text-decoration: underline;
 }
-
+*/
 /*header .textos-header{
 =======
 header .textos-header{
@@ -210,3 +302,7 @@ border-color: red;
 .imagen-grupo:hover .hover-galeria{
     transform: scale(1);
 }
+
+
+/*///////////*/
+
