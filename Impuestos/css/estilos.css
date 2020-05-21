@@ -19,7 +19,7 @@ header{
     width: 100%;
     height: 250px;
     text-align: center;
-    position: fixed;
+    position: absolute;
     top: 0;
     overflow: hidden;
 }
@@ -46,6 +46,11 @@ header .tituloprincipal img{
     
     float: right;
     width: 58px;
+}
+header .barra{
+    /*position: relative;
+    background-color: darkturquoise;
+*/
 }
 
 .listmenu{
@@ -165,10 +170,19 @@ header .textos-header{
 }*/
 
 /* About us*/
+.contenedor h2{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    
+}
 body{
   background: #FDB400;
 }
-
+main{
+    margin-top: 85px;
+}
 main .inicio{
       padding: 30px 0 60px 0;
 }
@@ -178,22 +192,25 @@ main .inicio{
 }
 
 .boton{
-  width: 350px ; height: 100px;
+  width: 400px ; height: 100px;
   background-color: #FF2E00;
-  border-radius: .5em;
+  border-radius: 35px;
   cursor: pointer;
   transition: background-color 1s;
-  margin-left: -100px;
+  margin-left: 50px;
   margin-bottom: 0;
 }
-  .boton:hover{
-    background-color:#5C7CC7 ;
+.boton:hover{
+    background-color:rgb(253, 0, 0) ;
   }
-  .boton p {
+.boton .botonyoutube{
+    text-decoration: none;
+}
+.boton p {
     text-align: center ;
-    font-size: 2em;font-weight:1000 ;
+    font-size: 400%;
     color: white ;
-    line-height: 2.6em
+    line-height: 1.5em;
 
   }
 
@@ -203,18 +220,18 @@ main .inicio{
 .imagen-about-us1{
     width: 60%;
     margin-top: 100px ;
-    margin-left: 80px ;
+    margin-left: 100px ;
   }
 .imagen-about-us{
     width: 40%;
 }
 
 .inicio .contenido-textos{
-    width: 48%;
+    width: 40%;
 }
 
 .contenido-textos h3{
-    margin-bottom: 15px;
+    margin-bottom: 0px;
 }
 
 .contenido-textos h3 span{
@@ -224,24 +241,21 @@ main .inicio{
     margin-right: 100px;
     }
 
-.contenido-textos p{
-    padding: 0px 0px 30px 15px;
-    font-weight: 900;
-    text-align: center ;
-}
+
 
 
 .contenidos-textos h3 span {
-    margin-bottom: 250px;
+    /*margin-bottom: 250px;
     display: inline-block;
     text-align: center;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
-    margin-right: 85px;
+    margin-right: 85px;*/
 }
 
 .contenido-textos p{
-    padding: 0px 0px 30px 15px;
-    font-weight: 800;
+    padding: 0px 0px 5px 15px;
+    font-weight: 150px;
+    font-weight: bold;
     text-align: center;
 }
 hr {
@@ -252,6 +266,7 @@ hr {
 
 .grupodetrabajo{
 border-color: red;
+height: 100vh;
 }
 
 .galeria-grupo{
@@ -282,7 +297,7 @@ border-color: red;
     height: 100%;
     top: 0;
     transform: scale(0);
-    background: hsla(273,91%,27%, 0.7);
+    background: rgba(249, 55, 20, 0.8);
     transition: transform .5s;
     display: flex;
     justify-content: center;
