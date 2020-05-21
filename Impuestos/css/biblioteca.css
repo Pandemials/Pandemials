@@ -45,6 +45,10 @@ header .tituloprincipal h1 a{
     
 
 }
+hr{
+    margin-top: 0%;
+    margin-bottom: 0;
+}
 header .tituloprincipal img{
     
     float: right;

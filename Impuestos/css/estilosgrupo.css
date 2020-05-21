@@ -1,73 +1,156 @@
-{
+
+*{
     margin: 0;
     padding: 0;
+    border: 0;
+    vertical-align: baseline;
     box-sizing: border-box;
+   
+
 }
+/*-----------------NUEVO HEADER------------------------------*/
+@font-face{
+    font-family:ParaTitulo;
+    src: url(../Fuentes/Fuente1.ttf.ttf )
+}
+body{
+    background: white;
+
+}
+
+header{
+    width: 100%;
+    height: 450px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+}
+
+
+header .tituloprincipal {
+    background-color: #17314f;
+    height: 80px;
+    padding: 15px;
+    
+}
+header .tituloprincipal h1 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-family: ParaTitulo;
+    font-size: 80px;
+    font-weight: normal;
+    line-height: 50px;
+    
+
+}
+hr{
+    margin-top: 0%;
+    margin-bottom: 0;
+    height: 2px;
+}
+header .tituloprincipal img{
+    
+    float: right;
+    width: 58px;
+}
+
+.listmenu{
+    padding:5px 0 5px 0;
+    text-align: left;
+    line-height: 32px;
+    background-color: #17314f;
+
+}
+ul.listmenu {
+    
+    /* margin-top: 9px;*/
+}
+
+
+.listmenu li {
+    display: inline;
+    padding: 0 20px 0 20px;
+    font-size: 16px;
+
+}
+.listmenu li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+
+}
+.listmenu li img{   
+    float: right; 
+    width: 100px;
+    height: auto;
+   /* margin: right;*/
+    padding: 5px;
+}
+.listmenu li a:hover{
+    background: #f4e315;
+    color: #17314f;
+
+}
+
+/*-----------------NUEVO HEADER------------------------------*/
+
 
 body {
     font-family: 'open sans';
-      background: #FDB400;
+    overflow-x: hidden;
 }
 
+
+
 .contenedor {
-    padding: 60px 0;
+    padding: 80px 0;
     width: 90%;
     max-width: 1200px;
     margin: auto;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .titulo {
     color: #642a73;
-    font-size: 30px;
+    font-size: 50px;
     text-align: center;
     margin-bottom: 60px;
+    font-weight: bold;
 }
-
-/* Header */
-
-header {
-  width: 100%;
-    height: 200px;
+body{
+    background: #FDB400;
 }
-
-nav{
-    background: #022549 ;
-    text-align: left;
-    padding: 30,0,0,0 ;
+main{
+    margin-top: 100px;
 }
-
-nav > a{
-    color:#fff ;
-    font-weight: 700;
-    text-decoration: none;
-    margin-left: 50px;
-
-}
-
-nav > a:hover{
-    text-decoration: underline;
-}
-/* About us */
-
 main .sobre-nosotros{
     padding: 30px 0 60px 0;
 }
 .contenedor-sobre-nosotros{
     display: flex;
     justify-content: space-evenly;
+    margin-top: -20px;
 }
 
 .imagen-about-us{
-    width: 40%;
+    margin-top: -70px;
+    height: 450px;
+    width: 200px;
 }
 
 .sobre-nosotros .contenido-textos{
     width: 48%;
+    margin-top: -25px;
 }
 
 .contenido-textos h3{
     margin-bottom: 15px;
+    font-size: 35px;
 }
 
 .contenido-textos h3 span{
@@ -76,20 +159,21 @@ main .sobre-nosotros{
     border-radius: 50%;
     display: inline-block;
     text-align: center;
-    width: 30px;
-    height: 30px;
+    width: 45px;
+    height: 45px;
     padding: 2px;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
     margin-right: 5px;
 }
 
 .contenido-textos p{
-    padding: 0px 0px 30px 15px;
-    font-weight: 300;
+    padding: 0px 0px 0px 15px;
+    font-weight: 45px;
     text-align: justify;
+    margin-left: 25px;
 }
 .divisor {
-  margin: 5rem 0;
+  margin: 5rem;
 }
 .featurette-heading {
   font-weight: 800;
