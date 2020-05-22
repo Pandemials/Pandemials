@@ -17,7 +17,7 @@
 			<form>
 					<div class="form-group">
 					<label for="exampleInputEmail1">Email</label>
-					<input type="email" class="form-control form-control-sm" id="exampleInputEmail1" aria-describedby="emailHelp">
+					<input type="email" class="form-control form-control-sm" id="mail" name="mail" aria-describedby="emailHelp">
 				</div>
 				<div class="form-group">
 					<label for="exampleInputPassword1">Contraseña</label>
