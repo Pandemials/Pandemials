@@ -6,6 +6,8 @@
     <title>Inicio</title>
     <link rel="stylesheet" href="css\estilos.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fa3461ebdd.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="imagenes/footer3.png"/>
   </head>
 
   <body>
@@ -29,10 +31,14 @@
       <nav class="barra" >
        
           <ul class="listmenu">
-            <li> <a href="index.html" class="activo">Inicio</a></li>
-             <li><a href="#sec1">Grupos de Trabajo</a></li>
-             <li><a href="Biblioteca.html">Biblioteca</a></li>
-             <li><img src="imagenes/Facebook.png"   alt="#"></li>
+            <li> <a class="menu" href="#" class="activo">Inicio</a></li>
+                 <li><a class="menu" href="index.html#sec1">Grupos de Trabajo</a></li>
+                 <li><a class="menu" href="index.html#sec2">Noticias</a></li>
+                 <li><a class="menu" href="Biblioteca.html">Biblioteca</a></li>
+                 <!--<li><img src="imagenes/Facebook.png"   alt="#"></li>-->
+                 <a class="iconos" href="https://whatsapp.com" target="blank"><i class="fab fa-whatsapp-square"></i></a>
+                 <a class="iconos" href="https://twitter.com" target="blank"><i class="fab fa-twitter-square"></i></a>
+                 <a class="iconos" href="https://facebook.com" target="blank"><i class="fab fa-facebook-square"></i></a>
          </ul>
      </nav>
   </header>
@@ -58,38 +64,83 @@
    </div>
   </section>
   <hr>
+  <section class="contenidonoticias" id="sec2">
+    <div class="noticiastitulo">
+      <h2> NOTICIAS</h2>
+      <hr>
+    </div>
+    <div class="boxnoticias">
+       <div class="noticia">
+          <div class="card-img"><img src="imagenes/contripag.png" alt=""></div>
+          <div class="noticia-text">
+            <h4>Noticia 1</h4>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
+          </div>
+       </div>
+       <div class="noticia">
+         <div class="card-img"><img src="imagenes/niño2.png" alt=""></div>
+           <div class="noticia-text">
+              <h4>Noticia 2</h4>
+               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
+        </div>
+        </div>
+        <div class="noticia">
+      <div class="card-img"><img src="imagenes/unipag.png" alt=""></div>
+      <div class="noticia-text">
+        <h4>Noticia 3</h4>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
+      </div>
+    </div>
+    <div class="noticia">
+      <div class="card-img"><img src="imagenes/docentepag.png" alt=""></div>
+      <div class="noticia-text">
+        <h4>Noticia 4</h4>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
+      </div>
+    </div>
+  </div>
+
+
+  </section>
   <section class="grupodetrabajo" id="sec1">
              <div class="contenedor">
                  <h2 class="titulo">¿A que grupo de trabajo preteneces?</h2>
                  <hr size="5px">
                  <div class="galeria-grupo">
-                     <div class="imagen-grupo">
-                       <img src="imagenes\img1.png" alt="">
-                       <div class="hover-galeria">
-                           <img src="imagenes\icono1.png" alt="">
-                           <p>Estudiantes</p>
-                      </div>
-                   </div>
+                       <div class="imagen-grupo">
+                        <a href="grupoestudiantes.html">
+                         <img src="imagenes\img1.png" alt="" >
+                            <div class="hover-galeria">
+                              <img src="imagenes\icono1.png" alt="">
+                                <p>Estudiantes</p>
+                            </div></a>
+                      
+                         </div>
+                   
                    <div class="imagen-grupo">
-                     <img src="imagenes\img2.png" alt="">
-                     <div class="hover-galeria">
+                      <a href="grupouniversitarios.html">  
+                       <img src="imagenes\img2.png" alt="">
+                      <div class="hover-galeria">
                          <img src="imagenes\icono1.png" alt="">
                          <p>Universitario</p>
-                    </div>
-                 </div>
-                 <div class="imagen-grupo">
+                       </div></a>
+                      </div>
+
+                  <div class="imagen-grupo">
+                    <a href="grupodocentes.html">
                    <img src="imagenes\img3.png" alt="">
                    <div class="hover-galeria">
                        <img src="imagenes\icono1.png" alt="">
                        <p>Docente</p>
-                  </div>
+                  </div></a>
                </div>
-               <div class="imagen-grupo">
-                 <img src="imagenes\img4.png" alt="">
-                 <div class="hover-galeria">
-                     <img src="imagenes\icono1.png" alt="">
+                  <div class="imagen-grupo">
+                    <a href="grupocontri.html">
+                      <img src="imagenes\img4.png" alt="">
+                      <div class="hover-galeria">
+                      <img src="imagenes\icono1.png" alt="">
                      <p>Contribuyente</p>
-                </div>
+                </div></a>
              </div>
            </div>
      </section>

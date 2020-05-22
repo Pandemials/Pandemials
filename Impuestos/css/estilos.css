@@ -80,15 +80,15 @@ ul.listmenu {
     border-radius: 10px;
 
 }
-.listmenu li img{   
+.iconos{   
     float: right; 
-    width: 100px;
-    height: auto;
-   /* margin: right;*/
-    padding: 5px;
+    padding-right: 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 32px;
 }
 .listmenu li a:hover{
-    background: #f4e315;
+    background: 	#eed919;
     color: #17314f;
 
 }
@@ -171,7 +171,8 @@ header .textos-header{
 
 /* About us*/
 .contenedor h2{
-    margin-bottom: 20px;
+    padding: 20px 0 80px 0;
+    margin-bottom: 0px;
     text-align: center;
     font-size: 55px;
     font-weight: bold;
@@ -181,14 +182,16 @@ body{
   background: #FDB400;
 }
 main{
-    margin-top: 100px;
+    margin-top: 200px;
 }
 main .inicio{
-      padding: 30px 0 60px 0;
+      padding: 0px 0 0px 0;
+
 }
 .contenedor-inicio{
     display: flex;
     justify-content: space-evenly;
+    padding: 0px 0px 180px 0;
 }
 
 .boton{
@@ -211,6 +214,7 @@ main .inicio{
     font-size: 400%;
     color: white ;
     line-height: 1.5em;
+    
 
   }
 
@@ -284,7 +288,7 @@ height: 100vh;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
 }
 
-.imagen-grupo > img{
+.imagen-grupo .img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -311,6 +315,8 @@ height: 100vh;
 
 .hover-galeria p{
     color: #fff;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .imagen-grupo:hover .hover-galeria{
@@ -320,3 +326,59 @@ height: 100vh;
 
 /*///////////*/
 
+.contenidonoticias {
+    
+    margin-top: 120px;
+    
+
+}
+
+.contenidonoticias .noticiastitulo{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.contenidonoticias .noticiastitulo h2{
+    font-size: 50px;
+    color: #642a73;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+
+}
+.contenidonoticias .noticiastitulo hr{
+    width: 30%;
+    margin: auto;
+    height: 3px;
+    background: rgb(112, 121, 185);
+    border: none;
+}
+
+.contenidonoticias .boxnoticias{
+    width: 90%;
+    margin: 80px auto;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contenidonoticias .boxnoticias .noticia{
+    width: 45%;
+    margin: 20px;
+    
+}
+.contenidonoticias .boxnoticias .noticia .card-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contenidonoticias .boxnoticias .noticia .card-img img{
+    width: 250px;
+    height: 250px;
+    /*border-radius: 50%;*/
+    object-fit: cover;
+    
+}
