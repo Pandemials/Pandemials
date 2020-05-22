@@ -5,7 +5,7 @@ class Database
     // parametros para la conexion al SQL, nombre de host, nombre de bd
     // nombre de usuarios y password
     private $host = "localhost";
-    private $db_name = "Pandemials";
+    private $db_name = "basedata";
     private $db_username = "root";
     private $db_password = "1234";
     public $connection;

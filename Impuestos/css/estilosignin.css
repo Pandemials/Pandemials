@@ -1,3 +1,25 @@
+nav{
+	text-align: center;
+	margin-top: 0.7em;
+}
+nav li{
+	display: inline-block;
+	list-style: none;
+}
+nav li a{
+	text-decoration: none;
+	background: #0489B1;
+	color: #fff;
+	border-radius: 3px;
+	padding: 0.6em 0.3em;
+	box-shadow: 5px 5px 5px #333;
+}
+nav li a:hover {
+	text-decoration: none;
+	background: #AAE9F8;
+	color: #fff;
+	border-radius: 3px;
+	padding: 0.6em 0.3em;
 /* sing in */
 html,body {
 height: 100%;
