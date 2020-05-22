@@ -2,12 +2,11 @@
 *{
     margin: 0;
     padding: 0;
-    border: 0;
-    vertical-align: baseline;
     box-sizing: border-box;
    
 
 }
+/*-----------------NUEVO HEADER------------------------------*/
 @font-face{
     font-family:ParaTitulo;
     src: url(../Fuentes/Fuente1.ttf.ttf )
@@ -16,12 +15,16 @@ body{
     background: white;
 
 }
+hr{
+    height: 2px;
+}
 
 header{
     width: 100%;
     height: 450px;
+
     text-align: center;
-    position: fixed;
+    position: absolute;
     top: 0;
     overflow: hidden;
 }
@@ -45,9 +48,11 @@ header .tituloprincipal h1 a{
     
 
 }
-hr{
+
+.lineas hr{
     margin-top: 0%;
     margin-bottom: 0;
+    
 }
 header .tituloprincipal img{
     
@@ -74,7 +79,7 @@ ul.listmenu {
     font-size: 16px;
 
 }
-.listmenu li a{
+.listmenu li  a{
     text-decoration: none;
     color: white;
     padding: 8px;
@@ -82,12 +87,12 @@ ul.listmenu {
     border-radius: 10px;
 
 }
-.listmenu li img{   
+.iconos{   
     float: right; 
-    width: 100px;
-    height: auto;
-   /* margin: right;*/
-    padding: 5px;
+    padding-right: 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 32px;
 }
 .listmenu li a:hover{
     background: #f4e315;
@@ -95,3 +100,60 @@ ul.listmenu {
 
 }
 
+/*-----------------NUEVO HEADER------------------------------*/
+
+
+body {
+    font-family: 'open sans';
+    overflow-x: hidden;
+}
+.contenedor {
+    padding: 80px 0;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow-x: hidden;
+}
+body{
+    background: #FDB400;
+}
+main{
+    margin-top: 180px;
+}
+
+
+/* descarga */
+.contenedordescarga{
+    padding: 0 0 100px 0;
+    
+}
+.contenedordescarga img{
+    width: 150px;
+    height: 250px;
+   
+}
+
+
+.contenedordescarga .col-lg-4 {
+  margin-bottom: 0;
+  padding: 0;
+  text-align: center;
+  
+}
+.contenedordescarga h2 {
+  /*font-weight: 400;*/
+}
+.contenedordescarga .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+.contenedordescarga h1{
+    padding: 50px;
+    text-align: center;
+    color: #642a73;
+    font-weight: 150px;
+    font-weight: bold;
+}
+.btn-secondary{
+    background-color: #642a73;
+}
