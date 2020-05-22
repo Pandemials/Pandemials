@@ -13,7 +13,7 @@
 	<div class="card-body">
 		<h3 class="cardtitulo">Cultura Tributaria</h3>
 		<div class="card-text">
-
+     <form action="validar.php" method="post">
 			<form>
 					<div class="form-group">
 					<label for="exampleInputEmail1">Email</label>
@@ -21,7 +21,6 @@
 				</div>
 				<div class="form-group">
 					<label for="exampleInputPassword1">Contraseña</label>
-					<a href="#" style="float:right;font-size:12px;">Olvido su contraseña?</a>
 					<input type="password" class="form-control form-control-sm" id="exampleInputPassword1">
 				</div>
 				<button type="submit" class="btn btn-primary btn-block">Sign in</button>
