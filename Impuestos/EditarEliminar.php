@@ -36,11 +36,13 @@ if (@!$_SESSION['user']) {
      <div class="navbar-inner">
    	<div class="container">
    	  <div class="nav-collapse">
-
-
+        <ul class="nav pull-right">
+     			  <li><a href="registro2.php"> Registrar </a></li>
+     		</ul>
    		<ul class="nav pull-right">
    			  <li><a href="desconectar.php"> Cerrar Sesión </a></li>
    		</ul>
+
    	  </div>
    	</div>
      </div>

@@ -19,7 +19,7 @@
 			$_SESSION['id']=$f2['id'];
 			$_SESSION['user']=$f2['user'];
 			$_SESSION['rol']=$f2['rol'];
-			echo '<script>alert("BIENVENIDO ADMINISTRADOR")</script> ';
+			echo '<script>alert("BIENVENIDO ")</script> ';
 			echo "<script>location.href='EditarEliminar.php'</script>";
 
 		}
