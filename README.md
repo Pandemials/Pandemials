@@ -1,39 +1,36 @@
-# Título del Proyecto
-Acá va un párrafo que describa lo que es el proyecto
+# Actualizacion y desarrollo de la pagina web
+desarrollo y mantenimiento de la página web interactiva y educativa que coadyuven en la generación de cultura tributaria.
 
 ### Comenzando 🚀
-Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
+Las siguientes instrucciones permitirán obtener una copia del proyecto para un buen funcionamiento del localhost para el desarrollo y pruebas del proyecto del proyecto.
 
 Mira Deployment para conocer como desplegar el proyecto.
 
 ### Pre-requisitos 📋
-Que cosas necesitas para instalar el software y como instalarlas
+Para la ejecucion del prograna necesitamos los softwares:
+* PHP - Lenguaje web usado que puede ser  incrustado en HTML.
+* MySQL - [MariaDB](https://mariadb.org/download/) 
+* HTML5 
+* CSS3 
+* Bootstrap [Bootstrap.V4,4](https://getbootstrap.com/docs/4.4/getting-started/download/)
 
-Da un ejemplo
 ### Instalación 🔧
-Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose
-
-Dí cómo será ese paso
-
-Da un ejemplo
-Y repite
-
-hasta finalizar
-Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo
+Para la instalacion se debe tener Apache Version 2.0, January 2004([Apache](https://www.apache.org/licenses/LICENSE-2.0)) para poder ejecutar para tener un entorno. No se requiere una configuracion extra.
 
 ### Despliegue 📦
-Agrega notas adicionales sobre como hacer deploy
+Para hacer deploy correcto copiamos la carpeta "Impuestos" a la carpeta de Apache>htdocs para que su buen funcionamiento.
 
 ### Construido con 🛠️
 Menciona las herramientas que utilizaste para crear tu proyecto
 
-* PHP - El framework web usado
-* Maven - Manejador de dependencias
-* ROME - Usado para generar RSS
-
+* PHP - Lenguaje web usado que puede ser  incrustado en HTML.
+* MySQL - sistema de gestión de bases de datos 
+* HTML5 - Usamos la referencia del software que conecta con la elaboración de páginas web en sus diferentes versiones
+* CSS3 - Como lenguaje de diseño gráfico
+* Bootstrap -  framework para la creación de interfaces con un diseño responsive.
 
 ### Wiki 📖
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra Wiki
+Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/Pandemials/Pandemials/wiki)
 
 ### Versionado 📌
 Usamos Git para el versionado. Para todas las versiones disponibles, mira los tags en este repositorio.
