@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <?php
-/*session_start();
+session_start();
 if (@!$_SESSION['user']) {
 	header("Location:Signin.php");
 }elseif ($_SESSION['rol']==2) {
 	header("Location:Signin2.php");
 }
-*/
+
 ?>
 <html lang="en" dir="ltr">
   <head>
