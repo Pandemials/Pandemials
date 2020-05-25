@@ -12,9 +12,7 @@
 
 body{
     background: white;
-
 }
-
 header{
     width: 100%;
     height: 250px;
@@ -23,14 +21,11 @@ header{
     top: 0;
     overflow: hidden;
 }
-
-
 header .tituloprincipal {
     background-color: #17314f;
     height: 80px;
     padding: 15px;
-    
-}
+  }
 header .tituloprincipal h1 a{
     text-decoration: none;
     text-transform: uppercase;
@@ -39,11 +34,11 @@ header .tituloprincipal h1 a{
     font-family: ParaTitulo;
     font-size: 80px;
     line-height: 50px;
-    
+
 
 }
 header .tituloprincipal img{
-    
+
     float: right;
     width: 58px;
 }
@@ -61,7 +56,7 @@ header .barra{
 
 }
 ul.listmenu {
-    
+
     /* margin-top: 9px;*/
 }
 
@@ -80,8 +75,8 @@ ul.listmenu {
     border-radius: 10px;
 
 }
-.listmenu li img{   
-    float: right; 
+.listmenu li img{
+    float: right;
     width: 100px;
     height: auto;
    /* margin: right;*/
@@ -175,7 +170,7 @@ header .textos-header{
     text-align: center;
     font-size: 55px;
     font-weight: bold;
-    
+
 }
 body{
   background: #FDB400;
@@ -319,4 +314,3 @@ height: 100vh;
 
 
 /*///////////*/
-
