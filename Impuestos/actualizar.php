@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <?php
 session_start();
-if (@!$_SESSION['user']) {
-	header("Location:index.php");
-}
+//if (@!$_SESSION['user']) {
+	//header("Location:index.php");
+//}
 ?>
 <html lang="en">
   <head>
@@ -21,6 +21,7 @@ if (@!$_SESSION['user']) {
 	   include "Conf\DataBase.php";
 	    $db = new Database();
 	    $dblink = $db->getConnection();
+			$id = $_GET['id'];
 			?>
 			<body >
 			<div class="container">
@@ -53,32 +54,25 @@ if (@!$_SESSION['user']) {
 		<div class="row-fluid">
 
 		<?php
-		 include "Conf\DataBase.php";
-			$db = new Database();
-			$dblink = $db->getConnection();
-
-
 		$sql="SELECT * FROM login WHERE id=$id";
 		$result = $dblink->query($sql);
-		$result->setFetchMode(PDO::FETCH_ASSOC);
-		if($f2=$result->fetch()){
-	//Revisar esta parte nose si lo converti bien
-		$ressql=mysqli_query($mysqli,$sql);
-	//	while ($row=fetch_row ($ressql)){
-			while ($row= $ressql->fetchAll()){
-		    	$id=$row[0];
+		$result->setFetchMode(PDO::FETCH_COLUMN);
+		//Revisar esta parte nose si lo converti bien
+		//$ressql=mysqli_query($mysqli,$sql);
+		//while ($row=fetch_row ($ressql)){
+			while ($row = $result->fetch()){
+		    	$id1=$row[0];
 		    	$user=$row[1];
 		    	$pass=$row[2];
 		    	$email=$row[3];
-		    	$pasadmin=$row[4];
+		    
 		    }
 		?>
 		<form action="ejecutaactualizar.php" method="post">
-				Id<br><input type="text" name="id" value= "<?php echo $id ?>" readonly="readonly"><br>
+				Id<br><input type="text" name="id" value= "<?php echo $id1 ?>" readonly="readonly"><br>
 				Usuario<br> <input type="text" name="user" value="<?php echo $user?>"><br>
 				Password usuario<br> <input type="text" name="pass" value="<?php echo $pass?>"><br>
 				Correo usuario<br> <input type="text" name="email" value="<?php echo $email?>"><br>
-				Pssword administrador<br> <input type="text" name="pasadmin" value="<?php echo $pasadmin?>"><br>
 
 				<br>
 				<input type="submit" value="Guardar" class="btn btn-success btn-primary">

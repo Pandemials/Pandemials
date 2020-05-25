@@ -17,25 +17,26 @@ SET time_zone = "+00:00";
 --
 -- Estructura de tabla para la tabla `login`
 --
+create database basedata;
+use basedata;
 
 CREATE TABLE `login` (
   `id` int(11) NOT NULL,
   `user` varchar(250) NOT NULL,
   `password` varchar(250) NOT NULL,
-  `email` varchar(250) NOT NULL,
-  `pasadmin` varchar(250) NOT NULL,
-  `rol` int(3) NOT NULL
+  `email` varchar(250) NOT NULL UNIQUE,
+   `rol` int(3) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Volcado de datos para la tabla `login`
 --
 
-INSERT INTO `login` (`id`, `user`, `password`, `email`, `pasadmin`, `rol`) VALUES
-(1, 'Administrador', '', 'admin@gmail.com', '123456', 1),
-(2, 'Luis', '12345', 'luis@ct.com', '', 2),
-(4, 'Lee', '12345', 'Lee@ct.com', '', 2),
-(5, 'Andres', '1234', 'andres@ct.com', '', 2);
+INSERT INTO `login` (`id`, `user`, `password`, `email`, `rol`) VALUES
+(1, 'Administrador', '123456', 'admin@gmail.com', 1),
+(2, 'Luis', '12345', 'luis@ct.com', 2),
+(4, 'Lee', '12345', 'Lee@ct.com', 2),
+(5, 'Andres', '1234', 'andres@ct.com', 2);
 
 --
 -- Índices para tablas volcadas
