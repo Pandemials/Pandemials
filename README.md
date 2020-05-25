@@ -13,9 +13,15 @@ Para la ejecucion del prograna necesitamos los softwares:
 * HTML5 
 * CSS3 
 * Bootstrap [Bootstrap.V4,4](https://getbootstrap.com/docs/4.4/getting-started/download/)
+* Apache  - [Apache](https://www.apache.org/licenses/LICENSE-2.0)
 
 ### Instalación 🔧
-Para la instalacion se debe tener Apache Version 2.0, January 2004([Apache](https://www.apache.org/licenses/LICENSE-2.0)) para poder ejecutar para tener un entorno. No se requiere una configuracion extra.
+Para la instalacion se debe tener Apache Version 2.0, January 2004([Apache](https://www.apache.org/licenses/LICENSE-2.0)) para poder ejecutar se debe seguir los sigientes pasos:
+* Paso1: Ingresar a la carpeta Apache 
+* Paso2: despues ingresar a la carpeta "bin".
+* Paso3: Inicializar la consola en "httpd.exe".
+
+Dejar la consola abierta para que el proyecto pueda ejecutarse con normalidad.No se requiere una configuracion extra.
 
 ### Despliegue 📦
 Para hacer deploy correcto copiamos la carpeta "Impuestos" a la carpeta de Apache>htdocs para que su buen funcionamiento.
