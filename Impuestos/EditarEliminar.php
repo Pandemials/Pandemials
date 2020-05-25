@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <?php
-session_start();
+/*session_start();
 if (@!$_SESSION['user']) {
 	header("Location:Signin.php");
 }elseif ($_SESSION['rol']==2) {
 	header("Location:Signin2.php");
 }
-
+*/
 ?>
 <html lang="en" dir="ltr">
   <head>
@@ -72,7 +72,7 @@ if (@!$_SESSION['user']) {
    						echo "<td>Usaurio</td>";
    						echo "<td>Password</td>";
    						echo "<td>Correo</td>";
-   						echo "<td>Password del administrador</td>";
+   						echo "<td>Rol</td>";
    						echo "<td>Editar</td>";
    						echo "<td>Borrar</td>";
    					echo "</tr>";
