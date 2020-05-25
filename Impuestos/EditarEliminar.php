@@ -72,7 +72,7 @@ if (@!$_SESSION['user']) {
    						echo "<td>Usaurio</td>";
    						echo "<td>Password</td>";
    						echo "<td>Correo</td>";
-   						echo "<td>Password del administrador</td>";
+   						echo "<td>Rol</td>";
    						echo "<td>Editar</td>";
    						echo "<td>Borrar</td>";
    					echo "</tr>";

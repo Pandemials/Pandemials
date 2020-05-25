@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="C:\Users\User\Desktop\git\Pandemials\Impuestos\css\estilosignin.css">
   </head>
 
-  <body> {
-    <div class="supercontenedor">
+  <body>
+  <div class="supercontenedor">
 	<div class="card login">
 	<div class="card-body">
 		<h3 class="cardtitulo">Cultura Tributaria</h3>
