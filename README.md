@@ -1,5 +1,5 @@
 # Actualizacion y desarrollo de la pagina web
-desarrollo y mantenimiento de la página web interactiva y educativa que coadyuven en la generación de cultura tributaria.
+Apoyar en el desarrollo y mantenimiento de la página web interactiva y educativa que coadyuven en la generación de cultura tributaria, empleando nuevas tecnologías de la comunicación e información, que permitan consolidar la importancia del cumplimiento de obligaciones tributarias.
 
 ### Comenzando 🚀
 Las siguientes instrucciones permitirán obtener una copia del proyecto para un buen funcionamiento del localhost para el desarrollo y pruebas del proyecto del proyecto.
